@@ -31,9 +31,9 @@ nav{
 
 
 
-ul {
+li {
     float: left;
-    list-style-type: none;
+    
 }
 
 li a, .dropbtn {
@@ -44,23 +44,21 @@ li a, .dropbtn {
     text-decoration: none;
     font-size: 25px;
     line-height: 12px;
-   
     
 }
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: #38CDCF;
-    
 }
 
 
 
 .dropdown {
     display: inline-block;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    list-style-type: none;
     
    
     
@@ -90,6 +88,7 @@ li a:hover, .dropdown:hover .dropbtn {
     display: block;
 }
 
+
 /*首頁圖*/
 header{
    background-image:url(../image/01.png);
@@ -100,12 +99,13 @@ header{
 
 .author>p{
     float: left;
-    border: 1px solid black;
     height: 100px;
     width: 300px;
     position:relative;
-    left: 700px;
-    top:300px
+    left: 580px;
+    top:200px;
+    font-size: 20px;
+    color:#430185;
 }
 
 .author{
@@ -326,3 +326,4 @@ footer p{
    font-size: 15px;
     
 }
+
